@@ -28,7 +28,7 @@
             box-sizing: border-box;
         }
         .left-section {
-            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            margin-right: -40px;
         }
         .right-section {
             background-color: #ECEFFF;
@@ -38,7 +38,7 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 80%; /* Ajustement pour meilleure apparence */
+            width: 85%; /* Ajustement pour meilleure apparence */
             height: 310px; /* Hauteur réduite */
             display: flex;
             flex-direction: column;

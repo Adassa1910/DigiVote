@@ -30,8 +30,9 @@
       .container {
         display: flex;
         width: 100%;
+        flex: 1;
         height: 100%;
-        margin-top: 50px; /* Adjusté pour l'en-tête */
+        margin-top: 40px; /* Adjusté pour l'en-tête */
       }
       .left-section {
         background-color: #AAD3FF; /* Bleu clair */
@@ -72,6 +73,9 @@
         width: 400px;
         height: 450px;
         position: relative;
+        justify-items: center;
+        align-items: center;
+        
       }
       h1 {
         font-size: 24px;
@@ -133,21 +137,19 @@
       </div>
       <div class="right-section">
         <div id="navigation" class="tabcontent">
-          <h2 style="text-align: center;">Menu</h2>
+          <h2 style="text-align: center; margin-top: 20px;">Menu</h2>
           <button onclick="window.location.href='index.html'">
             Vote et Aperçu
           </button>
           <button onclick="window.location.href='enrolement.html'">
-            Enrôlement Electeurs
+             Electeurs
           </button>
           <button onclick="window.location.href='candidats.html'">
-            Enregistrement Candidats
+             Candidats
           </button>
           <button onclick="window.location.href='demarragevote.html'">
             Démarrage Vote
           </button>
-          
-          <button onclick="window.location.href='admin.html'">Admin</button>
         </div>
       </div>
     </div>

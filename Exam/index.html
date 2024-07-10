@@ -13,21 +13,21 @@
     </header>
     <div class="main-container">
         <div class="voting-container">
-            <h2>Votez pour votre option préférée</h2>
+            <h2 style="margin-top: -1px;">Votez pour votre option préférée</h2>
             <form id="voteForm">
                 <div>
-                    <label>Votre numéro d'identité</label>
+                    <label style="margin-top: 3px;">Votre numéro d'identité</label>
                     <input type="text" id="numero" name="numero" required>
                     <span id="identityMessage" style="color: red; display: none;">Numéro d'identité invalide.</span>
                     <button id="generateCodeButton" disabled>Générer votre numéro jeton</button>
                     <p id="uniqueCodeDisplay"></p>
                 </div>
                 <fieldset id="optionsFieldset" disabled>
-                    <label class="option-label">
+                    <label class="option-label" style="margin-bottom: 10px;">
                         <input type="radio" name="option" value="Option 1" required>
                         <i class="fas fa-user option-icon"></i> Option 1
                     </label>
-                    <label class="option-label">
+                    <label class="option-label" style="margin-bottom: 10px;">
                         <input type="radio" name="option" value="Option 2">
                         <i class="fas fa-user option-icon"></i> Option 2
                     </label>
